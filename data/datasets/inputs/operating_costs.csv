@@ -1,0 +1,56 @@
+business_id,item,cost_type,conservative,base,optimistic,currency,basis,source_ref,note
+SOL,Lead solar technician (certified),payroll_month,3500,3500,3500,GHS,Estimate,SVC-11,Above the GHS 2000-3000 listed range for PV technicians to reflect certification; SSNIT added by the model
+SOL,Assistant installer,payroll_month,2000,2000,2000,GHS,Estimate,SVC-11,
+SOL,Sales and administration officer,payroll_month,2200,2200,2200,GHS,Estimate,SVC-09,
+SOL,Owner-manager salary (market rate),payroll_month,5000,5000,5000,GHS,Assumption,-,Costed so that profit is a return on capital
+SOL,"Utilities, internet and phone",fixed_month,1000,900,900,GHS,Estimate,MAC-16,
+SOL,Tricycle fuel and maintenance,fixed_month,2200,1800,1800,GHS,Estimate,MAC-19,
+SOL,Digital marketing and referral fees,fixed_month,2500,2500,2500,GHS,Assumption,-,
+SOL,Liability insurance,fixed_month,500,500,500,GHS,Assumption,-,
+SOL,"Accounting, bank charges and licence renewals",fixed_month,700,700,700,GHS,Assumption,-,
+SOL,Warranty provision,variable_pct_revenue,0.03,0.02,0.015,-,Assumption,-,
+SOL,Sales commission,variable_pct_revenue,0.02,0.02,0.02,-,Assumption,-,
+SOL,Payment and bank charges,variable_pct_revenue,0.01,0.01,0.01,-,Assumption,-,
+LAU,Laundry attendants (3 x GHS 1800),payroll_month,5400,5400,5400,GHS,Estimate,SVC-12,Listed range GHS 1500-2500
+LAU,Pickup and delivery rider,payroll_month,1500,1500,1500,GHS,Estimate,SVC-11,
+LAU,Owner-manager salary (market rate),payroll_month,4000,4000,4000,GHS,Assumption,-,
+LAU,Generator fuel during outages,fixed_month,1600,1200,900,GHS,Assumption,ENE-05;MAC-19,
+LAU,"Base electricity (lighting, fans)",fixed_month,500,400,400,GHS,Estimate,MAC-16,Process energy is in unit cost
+LAU,Rider fuel and bike maintenance (free pickup absorbed),fixed_month,1200,1000,1000,GHS,Estimate,MAC-19;SVC-34,Free pickup is market standard
+LAU,Marketing and promotions,fixed_month,1500,1500,1500,GHS,Assumption,-,
+LAU,"Phone, internet and software",fixed_month,300,300,300,GHS,Assumption,-,
+LAU,Equipment maintenance,fixed_month,500,400,400,GHS,Assumption,-,
+LAU,Accounting and sundries,fixed_month,500,500,500,GHS,Assumption,-,
+LAU,Insurance,fixed_month,250,250,250,GHS,Assumption,-,
+LAU,Damage and loss provision,variable_pct_revenue,0.015,0.01,0.01,-,Assumption,-,
+LAU,Payment charges (MoMo merchant),variable_pct_revenue,0.01,0.01,0.01,-,Assumption,-,
+BRO,Farm hands (2 x GHS 1500),payroll_month,3000,3000,3000,GHS,Estimate,SVC-11,Listed range GHS 800-2000
+BRO,Farm manager / owner (market rate),payroll_month,3500,3500,3500,GHS,Assumption,-,
+BRO,Veterinary retainer and lab tests,fixed_month,500,400,400,GHS,Assumption,-,
+BRO,Utilities (water and power),fixed_month,700,600,600,GHS,Assumption,MAC-16,Brooding gas is in unit cost
+BRO,Marketing and buyer development,fixed_month,600,600,600,GHS,Assumption,-,
+BRO,Phone and transport to buyers,fixed_month,800,600,600,GHS,Assumption,-,
+BRO,Repairs and biosecurity consumables,fixed_month,400,300,300,GHS,Assumption,-,
+BRO,Accounting and sundries,fixed_month,400,400,400,GHS,Assumption,-,
+BRO,Market levies and middleman commissions,variable_pct_revenue,0.04,0.03,0.02,-,Assumption,-,
+BRO,Payment charges,variable_pct_revenue,0.005,0.005,0.005,-,Assumption,-,
+DEL,Riders (4 x GHS 1500 base pay),payroll_month,6000,6000,6000,GHS,Estimate,ENE-56;SVC-11,Advertised range GHS 800-2100; per-drop incentive is in unit cost
+DEL,Dispatcher / customer service,payroll_month,1800,1800,1800,GHS,Estimate,SVC-09,
+DEL,Owner-manager salary (market rate),payroll_month,4000,4000,4000,GHS,Assumption,-,
+DEL,Phones; data; dispatch and tracking software,fixed_month,1000,900,900,GHS,Assumption,-,
+DEL,Marketing and seller acquisition,fixed_month,1200,1200,1200,GHS,Assumption,-,
+DEL,Union/association dues and renewals,fixed_month,250,200,200,GHS,Assumption,ENE-33;ENE-34,Courier renewal GHS 250 per rider per year
+DEL,Accounting and sundries,fixed_month,500,500,500,GHS,Assumption,-,
+DEL,Damage; loss and COD shortfall provision,variable_pct_revenue,0.025,0.015,0.01,-,Assumption,ENE-53,
+DEL,Payment charges,variable_pct_revenue,0.01,0.01,0.01,-,Assumption,-,
+DIG,Digital marketer,payroll_month,3000,3000,3000,GHS,Assumption,-,
+DIG,Content creator / designer,payroll_month,2500,2500,2500,GHS,Assumption,-,
+DIG,Owner-manager salary (market rate),payroll_month,4500,4500,4500,GHS,Assumption,-,
+DIG,Co-working desks,fixed_month,1500,1500,1500,GHS,Assumption,-,
+DIG,Internet and data,fixed_month,700,700,700,GHS,Assumption,-,
+DIG,Software subscriptions beyond prepaid licences,fixed_month,300,300,300,GHS,Assumption,-,
+DIG,Own marketing,fixed_month,1500,1500,1500,GHS,Assumption,-,
+DIG,Transport to clients,fixed_month,700,600,600,GHS,Assumption,-,
+DIG,Accounting and sundries,fixed_month,500,500,500,GHS,Assumption,-,
+DIG,Payment gateway fees,variable_pct_revenue,0.0195,0.0195,0.0195,-,Verified fact,ENE-61;ENE-62,Paystack and Hubtel 1.95%
+DIG,Sales commissions and referral fees,variable_pct_revenue,0.04,0.03,0.03,-,Assumption,-,

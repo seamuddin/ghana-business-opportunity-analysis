@@ -1,0 +1,8 @@
+criterion,weight_recommended,weight_equal,weight_risk_averse,direction,description
+Market demand,0.20,0.142857142857143,0.15,higher is better,Strength and quality of evidence for paying demand
+Investment affordability,0.15,0.142857142857143,0.15,higher is cheaper,Formula: $5k scores 5 and $20k scores 1 (linear)
+Profitability potential,0.20,0.142857142857143,0.15,higher is better,Formula: base-case month-12 run-rate ROI; 0% scores 1 and 150%+ scores 5
+Competitive intensity,0.10,0.142857142857143,0.10,higher is less intense,Fragmentation and differentiation headroom
+Operational feasibility,0.15,0.142857142857143,0.15,higher is easier,Skills; licensing; supply chain; execution complexity
+Scalability,0.10,0.142857142857143,0.05,higher is better,Ability to grow beyond the first unit without proportional capital
+Risk level,0.10,0.142857142857143,0.25,higher is lower risk,Formula: mean likelihood x impact in risk_register.csv; 4 scores 5 and 16 scores 1

@@ -1,0 +1,79 @@
+business_id,line,parameter,unit,conservative,base,optimistic,currency,basis,source_ref,note
+SOL,5 kVA hybrid system (installed),price,per system excl. VAT,40000,44000,47000,GHS,Estimate,ENE-43;ENE-44;ENE-18,Base = GHS 52800 incl. VAT: below established installers (5 kVA GHS 55-85k installed) and above informal kits (GHS 25-37k)
+SOL,5 kVA hybrid system (installed),unit_cost,per system excl. VAT (imported equipment priced in USD),2650,2564,2479,USD,Estimate,ENE-17;ENE-18,"5 kW hybrid inverter + 5 kWh LiFePO4 battery + 6 x 550 W panels + mounting and protection, branded components at trade prices; entered in USD so the FX stress test captures import exposure (GHS 30,000 at 11.70 in the base case)"
+SOL,5 kVA hybrid system (installed),steady_volume,systems per month,1.5,2.5,3.5,units,Assumption,-,One installation crew can fit 8-10 systems a month: demand-constrained
+SOL,5 kVA hybrid system (installed),start_month,month,1,1,1,-,Assumption,-,
+SOL,5 kVA hybrid system (installed),ramp_months,months,6,4,3,-,Assumption,-,
+SOL,5 kVA hybrid system (installed),monthly_growth,share per month after ramp,0,0.02,0.03,-,Assumption,-,
+SOL,3 kVA starter system (installed),price,per system excl. VAT,27000,30000,32000,GHS,Estimate,ENE-43;ENE-44,Base = GHS 36000 incl. VAT: low end of installer range for 3 kVA (GHS 35-50k installed)
+SOL,3 kVA starter system (installed),unit_cost,per system excl. VAT (imported equipment priced in USD),1795,1752,1709,USD,Estimate,ENE-18,"entered in USD so the FX stress test captures import exposure (GHS 20,500 at 11.70 in the base case)"
+SOL,3 kVA starter system (installed),steady_volume,systems per month,1,1.5,2.5,units,Assumption,-,
+SOL,3 kVA starter system (installed),start_month,month,1,1,1,-,Assumption,-,
+SOL,3 kVA starter system (installed),ramp_months,months,6,4,3,-,Assumption,-,
+SOL,3 kVA starter system (installed),monthly_growth,share per month after ramp,0,0.02,0.03,-,Assumption,-,
+SOL,Maintenance visits and service plans,price,per visit excl. VAT,500,600,700,GHS,Assumption,-,Panel cleaning; battery and inverter health check
+SOL,Maintenance visits and service plans,unit_cost,per visit,150,150,150,GHS,Assumption,-,Transport and consumables
+SOL,Maintenance visits and service plans,steady_volume,visits per month,5,8,12,units,Assumption,-,Grows with the installed base
+SOL,Maintenance visits and service plans,start_month,month,3,3,2,-,Assumption,-,
+SOL,Maintenance visits and service plans,ramp_months,months,10,9,8,-,Assumption,-,
+SOL,Maintenance visits and service plans,monthly_growth,share per month after ramp,0,0,0,-,Assumption,-,
+LAU,"Wash, dry and fold (per kg)",price,per kg,16,18,20,GHS,Estimate,SVC-33;SVC-35,Accra wash-and-fold prices cluster at GHS 17-20/kg
+LAU,"Wash, dry and fold (per kg)",unit_cost,per kg,4.5,4.0,3.8,GHS,Estimate,SVC-37;MAC-16,Detergent ~GHS 1.2; water ~10 L at GHS 32/m3; ~0.9 kWh wash+dry at GHS 2.24/kWh; packaging
+LAU,"Wash, dry and fold (per kg)",steady_volume,kg per month,1100,1400,1700,kg,Assumption,-,About 54 kg per day in the base case; within washer and dryer capacity
+LAU,"Wash, dry and fold (per kg)",start_month,month,1,1,1,-,Assumption,-,
+LAU,"Wash, dry and fold (per kg)",ramp_months,months,7,6,5,-,Assumption,-,
+LAU,"Wash, dry and fold (per kg)",monthly_growth,share per month after ramp,0,0.01,0.02,-,Assumption,-,
+LAU,Washed and pressed garments (per item),price,per item,8,10,12,GHS,Estimate,SVC-32;SVC-33,Pressed shirt GHS 8-15 across price lists
+LAU,Washed and pressed garments (per item),unit_cost,per item,1.7,1.5,1.4,GHS,Estimate,-,"Detergent, pressing energy, hanger and bag"
+LAU,Washed and pressed garments (per item),steady_volume,items per month,850,1100,1400,units,Assumption,-,
+LAU,Washed and pressed garments (per item),start_month,month,1,1,1,-,Assumption,-,
+LAU,Washed and pressed garments (per item),ramp_months,months,7,6,5,-,Assumption,-,
+LAU,Washed and pressed garments (per item),monthly_growth,share per month after ramp,0,0.01,0.02,-,Assumption,-,
+LAU,"Special items (suits, duvets, traditional wear)",price,per item,32,40,45,GHS,Estimate,SVC-32;SVC-33;SVC-34,Suit GHS 30-40; duvet GHS 40-100
+LAU,"Special items (suits, duvets, traditional wear)",unit_cost,per item,7,6,6,GHS,Assumption,-,In-house wet cleaning and pressing
+LAU,"Special items (suits, duvets, traditional wear)",steady_volume,items per month,90,120,160,units,Assumption,-,
+LAU,"Special items (suits, duvets, traditional wear)",start_month,month,1,1,1,-,Assumption,-,
+LAU,"Special items (suits, duvets, traditional wear)",ramp_months,months,7,6,5,-,Assumption,-,
+LAU,"Special items (suits, duvets, traditional wear)",monthly_growth,share per month after ramp,0,0.01,0.02,-,Assumption,-,
+BRO,Broilers sold (blend of live and dressed),price,per bird,95,105,118,GHS,Estimate,AGR-09;AGR-33;AGR-36,"Live ~GHS 100-110, dressed GHS 97-120; minister reports ~GHS 100 (GHS 80 in some areas) in 2026"
+BRO,Broilers sold (blend of live and dressed),unit_cost,per bird sold,90,80,72.5,GHS,Estimate,AGR-10;AGR-11;AGR-14;AGR-32;AGR-33,"Base: chick GHS 20.5 + 4.8 kg feed x GHS 9 + vaccines 2.5 + litter/brooding 3.5, divided by 92% survival, + dressing (40% of birds x GHS 6) + transport 2"
+BRO,Broilers sold (blend of live and dressed),steady_volume,birds per month,800,900,1000,birds,Assumption,-,Two houses with staggered placements of ~1100 chicks per month
+BRO,Broilers sold (blend of live and dressed),start_month,month,2,2,2,-,Assumption,-,First batch reaches market weight at 6 weeks
+BRO,Broilers sold (blend of live and dressed),ramp_months,months,3,3,2,-,Assumption,-,
+BRO,Broilers sold (blend of live and dressed),monthly_growth,share per month after ramp,0,0,0,-,Assumption,-,Capacity-capped by housing
+BRO,Poultry manure (bags),price,per bag,15,20,25,GHS,Assumption,-,By-product sold to vegetable farmers
+BRO,Poultry manure (bags),unit_cost,per bag,2,2,2,GHS,Assumption,-,Bag cost
+BRO,Poultry manure (bags),steady_volume,bags per month,80,100,120,units,Assumption,-,
+BRO,Poultry manure (bags),start_month,month,2,2,2,-,Assumption,-,
+BRO,Poultry manure (bags),ramp_months,months,3,3,2,-,Assumption,-,
+BRO,Poultry manure (bags),monthly_growth,share per month after ramp,0,0,0,-,Assumption,-,
+DEL,Same-day scheduled deliveries (per drop),price,per drop,20,25,30,GHS,Estimate,ENE-50;ENE-53;ENE-35,B2B rates: Swoove from GHS 15-20 (2023); app fees GHS 12-18+; consumer average GHS 45
+DEL,Same-day scheduled deliveries (per drop),unit_cost,per drop,8.5,7,6,GHS,Estimate,MAC-19,Fuel ~6 km per drop at 40 km/L and GHS 17/L (~GHS 2.5) + maintenance 1.5 + rider per-drop incentive 3
+DEL,Same-day scheduled deliveries (per drop),steady_volume,drops per month,1040,1456,1872,units,Assumption,-,4 bikes x 26 days x 10 / 14 / 18 batched drops per bike per day
+DEL,Same-day scheduled deliveries (per drop),start_month,month,1,1,1,-,Assumption,-,
+DEL,Same-day scheduled deliveries (per drop),ramp_months,months,7,5,4,-,Assumption,-,
+DEL,Same-day scheduled deliveries (per drop),monthly_growth,share per month after ramp,0,0.01,0.02,-,Assumption,-,
+DEL,Cash-on-delivery settlement fee,price,per COD drop,3,4,5,GHS,Assumption,ENE-54,Same-day MoMo settlement to the seller
+DEL,Cash-on-delivery settlement fee,unit_cost,per COD drop,0.6,0.6,0.6,GHS,Assumption,-,MoMo transfer charges
+DEL,Cash-on-delivery settlement fee,steady_volume,COD drops per month,624,874,1123,units,Assumption,ENE-54;ENE-55,About 60% of drops are cash on delivery
+DEL,Cash-on-delivery settlement fee,start_month,month,1,1,1,-,Assumption,-,
+DEL,Cash-on-delivery settlement fee,ramp_months,months,7,5,4,-,Assumption,-,
+DEL,Cash-on-delivery settlement fee,monthly_growth,share per month after ramp,0,0.01,0.02,-,Assumption,-,
+DIG,Digital set-up package (one-off),price,per package,2000,2500,3000,GHS,Estimate,ENE-59;ENE-60,"WhatsApp catalogue, MoMo checkout/payment links, Google profile and landing page; small-business websites GHS 2000-5000"
+DIG,Digital set-up package (one-off),unit_cost,per package,350,300,300,GHS,Assumption,-,Domain; hosting; content props
+DIG,Digital set-up package (one-off),steady_volume,packages per month,2.5,4,6,units,Assumption,-,
+DIG,Digital set-up package (one-off),start_month,month,1,1,1,-,Assumption,-,
+DIG,Digital set-up package (one-off),ramp_months,months,6,4,3,-,Assumption,-,
+DIG,Digital set-up package (one-off),monthly_growth,share per month after ramp,0,0,0,-,Assumption,-,
+DIG,Monthly social-commerce retainer,price,per client per month,1000,1200,1500,GHS,Estimate,ENE-57;ENE-58,Priced below agency entry tiers (GHS 1500-2500) to target micro-sellers
+DIG,Monthly social-commerce retainer,unit_cost,per client per month,150,150,150,GHS,Assumption,-,Scheduling tools and design assets
+DIG,Monthly social-commerce retainer,steady_volume,active clients,8,14,20,clients,Assumption,-,Capacity about 8-10 clients per marketer
+DIG,Monthly social-commerce retainer,start_month,month,2,2,2,-,Assumption,-,
+DIG,Monthly social-commerce retainer,ramp_months,months,11,10,9,-,Assumption,-,Clients accumulate gradually
+DIG,Monthly social-commerce retainer,monthly_growth,share per month after ramp,0,0,0,-,Assumption,-,
+DIG,Seller training workshops (per attendee),price,per attendee,250,300,350,GHS,Assumption,-,
+DIG,Seller training workshops (per attendee),unit_cost,per attendee,80,80,80,GHS,Assumption,-,Venue share and materials
+DIG,Seller training workshops (per attendee),steady_volume,attendees per month,6,12,20,units,Assumption,-,
+DIG,Seller training workshops (per attendee),start_month,month,3,3,2,-,Assumption,-,
+DIG,Seller training workshops (per attendee),ramp_months,months,4,4,3,-,Assumption,-,
+DIG,Seller training workshops (per attendee),monthly_growth,share per month after ramp,0,0,0,-,Assumption,-,

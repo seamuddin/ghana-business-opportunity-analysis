@@ -1,0 +1,36 @@
+business_id,risk_id,category,risk,likelihood,impact,mitigation,evidence_ref
+SOL,SOL-R1,Demand,"Sales slower than plan; buyers delay purchases while waiting for the proposed 2027 duty/VAT exemption on panels and batteries",3,4,"Target SMEs losing stock to outages (urgent need); deposit-before-order model limits exposure; pass exemption savings through once law",REG-18;ENE-05
+SOL,SOL-R2,Price & competition,"Undercutting by informal online sellers and low-grade components",4,3,"Compete on certified installation, warranties and after-sales service, not on price; publish transparent package prices",ENE-17;ENE-18
+SOL,SOL-R3,Operations & people,"Installation defects and warranty claims from weak technical skills",3,3,"Certified lead technician; manufacturer training; commissioning checklist; 2% warranty provision in the model",REG-23
+SOL,SOL-R4,Supply & input costs,"Stock-outs or counterfeit components from importers",3,3,"Two approved distributors per component; buy only registered products; inspect on delivery",REG-24;ENE-19
+SOL,SOL-R5,Financial & FX,"Cedi depreciation raises equipment cost between quote and purchase",4,4,"7-day quote validity; 70% deposit triggers purchase; reprice weekly; sensitivity test shows impact",MAC-06;MAC-07
+SOL,SOL-R6,Regulatory,"Energy Commission licensing and standards enforcement; foreign partners risk 'trading' classification",2,3,"Licence before launch; keep certificates current; legal opinion before any foreign equity",ENE-19;REG-05
+SOL,SOL-R7,Hazard,"Electrical fire or injury during installation; theft of stock",2,4,"Insurance; PPE and isolation procedures; minimal stock held on site",-
+LAU,LAU-R1,Demand,"Customer acquisition slower than plan in the chosen neighbourhood",3,4,"Pre-launch WhatsApp waitlist; first-wash discounts; B2B contracts with hostels and guest houses",SVC-13
+LAU,LAU-R2,Price & competition,"Price competition from informal washers and well-funded entrants",3,3,"Position on turnaround reliability and garment care; subscriptions to lock in customers",SVC-13;SVC-14
+LAU,LAU-R3,Operations & people,"Garment damage or loss claims; staff reliability",3,3,"Tagging and photo intake; care-label training; 1% damage provision in the model",-
+LAU,LAU-R4,Supply & input costs,"Power and water interruptions raise generator fuel and water-tanker costs",4,3,"Generator and water storage in startup budget; schedule heavy loads at night; outage fuel line in opex",ENE-05;ENE-06
+LAU,LAU-R5,Financial & FX,"Imported machine spare parts become expensive; utility tariff increases",2,2,"Buy brands with local service agents; keep a parts kitty in contingency",ENE-09;ENE-11
+LAU,LAU-R6,Regulatory,"Assembly permits and wastewater rules",2,2,"Obtain business operating permit before launch; use biodegradable detergents",REG-26;REG-25
+LAU,LAU-R7,Hazard,"Machine breakdown, fire or theft of customer garments",2,3,"Preventive maintenance contract; insurance; secure storage",-
+BRO,BRO-R1,Demand,"Birds cannot be sold at market age; holding costs rise (reported for programme beneficiaries in 2026)",4,4,"Pre-sell batches to chop bars and caterers; dressed-bird option; schedule placements around festive peaks",AGR-06
+BRO,BRO-R2,Price & competition,"Frozen imports (about GHS 33/kg) and subsidised programme flocks cap prices",4,4,"Sell freshness and convenience (dressed, delivered); avoid commodity live-bird markets",AGR-12;AGR-05
+BRO,BRO-R3,Operations & people,"High mortality or poor feed conversion from husbandry gaps",3,4,"Experienced farm manager; vaccination schedule; brooding protocols; weekly weighing",AGR-14
+BRO,BRO-R4,Supply & input costs,"Feed price spikes (maize and soya)",4,4,"Buy maize at harvest and mix with concentrate; supplier contracts; reprice per batch",AGR-11;AGR-13;AGR-16
+BRO,BRO-R5,Financial & FX,"Imported feed components (soya, premix) and chicks priced off FX",2,3,"Local maize base; monitor concentrate prices; batch-level pricing",AGR-13
+BRO,BRO-R6,Regulatory,"Veterinary, EPA and FDA requirements for farm and dressing",2,3,"Register with veterinary services; dress birds through a licensed facility if required",SVC-21;REG-25
+BRO,BRO-R7,Hazard,"Avian influenza outbreak forcing culling",2,5,"Biosecurity (foot dips, all-in/all-out, visitor control); single-age houses; disease reporting",AGR-07;AGR-08
+DEL,DEL-R1,Demand,"Seller volumes below plan",3,4,"Sign 10-15 anchor sellers before launch; monthly contracts with minimum volumes",ENE-29
+DEL,DEL-R2,Price & competition,"Platforms and informal riders undercut on price",4,3,"Compete on reliability, tracking and same-day COD settlement for sellers",ENE-30;ENE-35
+DEL,DEL-R3,Operations & people,"Rider churn; cash-on-delivery shortfalls or fraud",4,3,"Daily MoMo settlement; rider deposits and incentives; GPS tracking",SVC-11
+DEL,DEL-R4,Supply & input costs,"Fuel price increases (subsidy expected to end)",4,3,"Fuel surcharge clause in contracts; route batching",MAC-18;MAC-19
+DEL,DEL-R5,Financial & FX,"Imported bikes and parts become expensive",2,2,"Standardise on one brand with local parts supply",ENE-35
+DEL,DEL-R6,Regulatory,"Commercial motorcycle rules still bedding in (union membership, rider licensing)",3,3,"Register riders with courier regulator and union from day one; monitor L.I. 2519 enforcement",ENE-32;ENE-33;ENE-34
+DEL,DEL-R7,Hazard,"Road accidents and bike theft",3,4,"Defensive-riding training; helmets and PPE; insurance; trackers",-
+DIG,DIG-R1,Demand,"Micro and small firms will not pay monthly retainers",4,4,"Pilot with 5 paying clients before scaling; productised low-price entry packages",ENE-40;MAC-20
+DIG,DIG-R2,Price & competition,"Freelancers and do-it-yourself tools undercut prices",4,3,"Specialise by vertical (e.g., restaurants, pharmacies); sell measurable outcomes",-
+DIG,DIG-R3,Operations & people,"Key-person dependency; staff poached by clients",3,3,"Documented playbooks; non-solicitation clauses; profit-share",-
+DIG,DIG-R4,Supply & input costs,"Platform changes (algorithms, ad prices, WhatsApp Business fees)",3,2,"Diversify channels; bill ad spend at cost plus fee",-
+DIG,DIG-R5,Financial & FX,"USD-priced software subscriptions; late client payments",3,2,"Prepaid monthly billing via MoMo; minimise USD tools",MAC-07
+DIG,DIG-R6,Regulatory,"Data-protection compliance when handling client customer data",1,2,"Register with the Data Protection Commission; simple data-processing agreements",-
+DIG,DIG-R7,Hazard,"Laptop theft or account hacking",2,2,"Two-factor authentication; cloud backups; insurance",-

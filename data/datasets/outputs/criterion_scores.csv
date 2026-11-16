@@ -1,0 +1,36 @@
+business_id,criterion,score,rationale,business
+SOL,Market demand,5.0,"Outages documented in 2024, 2025 and 2026; grid tariffs reset quarterly; only 7.6 MW of small residential PV installed against a 214 MW distributed target; US$200m rooftop programme",Solar installation
+SOL,Competitive intensity,3.0,"Fragmented market with price-led online sellers and few certified, service-led installers in the mid-market; large players focus on PAYG or C&I segments",Solar installation
+SOL,Operational feasibility,3.0,"Requires a certified electrician, supplier relationships and technical liability management; equipment is bought per order after deposits",Solar installation
+SOL,Scalability,4.0,Add installation crews; SME and institutional contracts; bank and programme-financed customers,Solar installation
+LAU,Market demand,3.0,"Urbanisation and new entrants scaling (24-hour facility, Oct 2026), but demand evidence is mostly operator claims",Laundry service
+LAU,Competitive intensity,3.0,Large informal segment plus a handful of organised players; reliability is the main gap cited by operators,Laundry service
+LAU,Operational feasibility,4.0,Simple processes and readily trained staff; utilities (power and water) are the main operating constraint,Laundry service
+LAU,Scalability,3.0,"Hub-and-spoke collection points and B2B contracts allow growth, but each hub needs new equipment",Laundry service
+BRO,Market demand,4.0,"Import substitution evidence is the strongest in the study, but paying demand at local cost is constrained: local birds cost about twice frozen imports per kg and off-take problems were reported in 2026 (downgraded from 5 at screening)",Broiler farm
+BRO,Competitive intensity,2.0,"Frozen imports, subsidised programme flocks and integrated farms all compete for the same buyers",Broiler farm
+BRO,Operational feasibility,3.0,"Husbandry skill, biosecurity, land and water access needed; feed management decides profitability",Broiler farm
+BRO,Scalability,2.0,Growth needs new housing and working capital per bird; biosecurity limits density,Broiler farm
+DEL,Market demand,4.0,Online and social commerce growing (Bolt non-restaurant orders +154%; 28.8m internet users); demand for reliable COD delivery from micro-sellers,Delivery fleet
+DEL,Competitive intensity,2.5,"Platforms (Yango, Bolt) and many informal riders; gap in reliable B2B service with fast cash settlement",Delivery fleet
+DEL,Operational feasibility,3.0,"Rider management, cash control and new licensing and union rules add execution complexity",Delivery fleet
+DEL,Scalability,4.0,Fleet grows per contract; model can be replicated in Kumasi and Takoradi,Delivery fleet
+DIG,Market demand,2.0,"Clear gap between consumer and merchant digital adoption, but no evidence that micro-firms will pay recurring fees",Digital services
+DIG,Competitive intensity,2.0,Very low barriers to entry; freelancers and do-it-yourself tools,Digital services
+DIG,Operational feasibility,4.0,Low capex and widely available skills; client acquisition is the hard part,Digital services
+DIG,Scalability,3.0,People-bound service; productised packages and training improve leverage,Digital services
+SOL,Investment affordability,1.8,"Initial investment $17,013",Solar installation
+SOL,Profitability potential,4.05,Base-case month-12 run-rate ROI 114%,Solar installation
+SOL,Risk level,2.9,Mean risk-register score 10.3 / 25,Solar installation
+LAU,Investment affordability,2.16,"Initial investment $15,656",Laundry service
+LAU,Profitability potential,2.78,Base-case month-12 run-rate ROI 67%,Laundry service
+LAU,Risk level,3.67,Mean risk-register score 8.0 / 25,Laundry service
+BRO,Investment affordability,1.59,"Initial investment $17,777",Broiler farm
+BRO,Profitability potential,1.98,Base-case month-12 run-rate ROI 37%,Broiler farm
+BRO,Risk level,2.43,Mean risk-register score 11.7 / 25,Broiler farm
+DEL,Investment affordability,1.94,"Initial investment $16,485",Delivery fleet
+DEL,Profitability potential,2.27,Base-case month-12 run-rate ROI 48%,Delivery fleet
+DEL,Risk level,2.86,Mean risk-register score 10.4 / 25,Delivery fleet
+DIG,Investment affordability,4.07,"Initial investment $8,505",Digital services
+DIG,Profitability potential,2.88,Base-case month-12 run-rate ROI 71%,Digital services
+DIG,Risk level,3.71,Mean risk-register score 7.9 / 25,Digital services

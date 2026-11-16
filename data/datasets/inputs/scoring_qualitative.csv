@@ -1,0 +1,21 @@
+business_id,criterion,score,rationale,evidence_ref
+SOL,Market demand,5,"Outages documented in 2024, 2025 and 2026; grid tariffs reset quarterly; only 7.6 MW of small residential PV installed against a 214 MW distributed target; US$200m rooftop programme",ENE-03;ENE-05;ENE-06;ENE-09;ENE-13;ENE-14
+SOL,Competitive intensity,3,"Fragmented market with price-led online sellers and few certified, service-led installers in the mid-market; large players focus on PAYG or C&I segments",ENE-17;ENE-18;ENE-21;ENE-22
+SOL,Operational feasibility,3,"Requires a certified electrician, supplier relationships and technical liability management; equipment is bought per order after deposits",REG-23;ENE-19
+SOL,Scalability,4,"Add installation crews; SME and institutional contracts; bank and programme-financed customers",ENE-14;ENE-20
+LAU,Market demand,3,"Urbanisation and new entrants scaling (24-hour facility, Oct 2026), but demand evidence is mostly operator claims",MAC-14;SVC-13
+LAU,Competitive intensity,3,"Large informal segment plus a handful of organised players; reliability is the main gap cited by operators",SVC-13;SVC-14;SVC-15
+LAU,Operational feasibility,4,"Simple processes and readily trained staff; utilities (power and water) are the main operating constraint",ENE-05
+LAU,Scalability,3,"Hub-and-spoke collection points and B2B contracts allow growth, but each hub needs new equipment",-
+BRO,Market demand,4,"Import substitution evidence is the strongest in the study, but paying demand at local cost is constrained: local birds cost about twice frozen imports per kg and off-take problems were reported in 2026 (downgraded from 5 at screening)",AGR-01;AGR-03;AGR-06;AGR-12
+BRO,Competitive intensity,2,"Frozen imports, subsidised programme flocks and integrated farms all compete for the same buyers",AGR-01;AGR-05;AGR-29
+BRO,Operational feasibility,3,"Husbandry skill, biosecurity, land and water access needed; feed management decides profitability",AGR-13;AGR-14
+BRO,Scalability,2,"Growth needs new housing and working capital per bird; biosecurity limits density",-
+DEL,Market demand,4,"Online and social commerce growing (Bolt non-restaurant orders +154%; 28.8m internet users); demand for reliable COD delivery from micro-sellers",ENE-23;ENE-29
+DEL,Competitive intensity,2.5,"Platforms (Yango, Bolt) and many informal riders; gap in reliable B2B service with fast cash settlement",ENE-28;ENE-30;ENE-35
+DEL,Operational feasibility,3,"Rider management, cash control and new licensing and union rules add execution complexity",ENE-32;ENE-33;ENE-34
+DEL,Scalability,4,"Fleet grows per contract; model can be replicated in Kumasi and Takoradi",ENE-30
+DIG,Market demand,2,"Clear gap between consumer and merchant digital adoption, but no evidence that micro-firms will pay recurring fees",ENE-40;MAC-20
+DIG,Competitive intensity,2,"Very low barriers to entry; freelancers and do-it-yourself tools",-
+DIG,Operational feasibility,4,"Low capex and widely available skills; client acquisition is the hard part",-
+DIG,Scalability,3,"People-bound service; productised packages and training improve leverage",-

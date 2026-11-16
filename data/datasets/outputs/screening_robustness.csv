@@ -1,0 +1,61 @@
+variant,rank,id,opportunity,score,in_top5
+equal_weights (method used),1,O01,Solar PV installation & maintenance,3.8,True
+equal_weights (method used),2,O04,Laundry & dry-cleaning with pickup/delivery,3.6,True
+equal_weights (method used),3,O03,Broiler production with direct off-take,3.5,True
+equal_weights (method used),4,O02,Last-mile delivery for online sellers,3.5,True
+equal_weights (method used),5,O05,SME digital-commerce enablement services,3.4,True
+equal_weights (method used),6,O06,Tilapia cold-chain distribution,3.3,False
+equal_weights (method used),7,O07,Maize aggregation & storage for feed,3.3,False
+equal_weights (method used),8,O11,Phone & laptop repair and refurbishment,3.3,False
+equal_weights (method used),9,O08,Tomato aggregation with solar cold storage,3.1,False
+equal_weights (method used),10,O09,Branded gari processing & packaging,2.8,False
+equal_weights (method used),11,O10,LPG cylinder-exchange point (CRM),2.7,False
+equal_weights (method used),12,O12,Frozen fish & chicken cold-store retail,2.6,False
+equal_weights (method used),13,O13,Plastic waste aggregation for recyclers,2.5,False
+equal_weights (method used),14,O14,Standalone mobile money agency,2.4,False
+equal_weights (method used),15,O15,Sachet water production,1.7,False
+demand_double_weighted,1,O01,Solar PV installation & maintenance,4.0,True
+demand_double_weighted,2,O03,Broiler production with direct off-take,3.75,True
+demand_double_weighted,3,O02,Last-mile delivery for online sellers,3.583,True
+demand_double_weighted,4,O04,Laundry & dry-cleaning with pickup/delivery,3.5,True
+demand_double_weighted,5,O06,Tilapia cold-chain distribution,3.417,True
+demand_double_weighted,6,O07,Maize aggregation & storage for feed,3.333,False
+demand_double_weighted,7,O08,Tomato aggregation with solar cold storage,3.25,False
+demand_double_weighted,8,O11,Phone & laptop repair and refurbishment,3.25,False
+demand_double_weighted,9,O05,SME digital-commerce enablement services,3.167,False
+demand_double_weighted,10,O10,LPG cylinder-exchange point (CRM),2.917,False
+demand_double_weighted,11,O09,Branded gari processing & packaging,2.833,False
+demand_double_weighted,12,O12,Frozen fish & chicken cold-store retail,2.667,False
+demand_double_weighted,13,O14,Standalone mobile money agency,2.333,False
+demand_double_weighted,14,O13,Plastic waste aggregation for recyclers,2.333,False
+demand_double_weighted,15,O15,Sachet water production,1.833,False
+local_investor_only (access excluded),1,O01,Solar PV installation & maintenance,4.0,True
+local_investor_only (access excluded),2,O02,Last-mile delivery for online sellers,3.625,True
+local_investor_only (access excluded),3,O06,Tilapia cold-chain distribution,3.5,True
+local_investor_only (access excluded),4,O04,Laundry & dry-cleaning with pickup/delivery,3.5,True
+local_investor_only (access excluded),5,O03,Broiler production with direct off-take,3.375,True
+local_investor_only (access excluded),6,O07,Maize aggregation & storage for feed,3.125,False
+local_investor_only (access excluded),7,O11,Phone & laptop repair and refurbishment,3.125,False
+local_investor_only (access excluded),8,O08,Tomato aggregation with solar cold storage,3.0,False
+local_investor_only (access excluded),9,O05,SME digital-commerce enablement services,3.0,False
+local_investor_only (access excluded),10,O10,LPG cylinder-exchange point (CRM),2.875,False
+local_investor_only (access excluded),11,O09,Branded gari processing & packaging,2.75,False
+local_investor_only (access excluded),12,O12,Frozen fish & chicken cold-store retail,2.75,False
+local_investor_only (access excluded),13,O13,Plastic waste aggregation for recyclers,2.375,False
+local_investor_only (access excluded),14,O14,Standalone mobile money agency,2.25,False
+local_investor_only (access excluded),15,O15,Sachet water production,1.875,False
+margin_double_weighted,1,O01,Solar PV installation & maintenance,3.833,True
+margin_double_weighted,2,O04,Laundry & dry-cleaning with pickup/delivery,3.667,True
+margin_double_weighted,3,O02,Last-mile delivery for online sellers,3.417,True
+margin_double_weighted,4,O05,SME digital-commerce enablement services,3.333,True
+margin_double_weighted,5,O03,Broiler production with direct off-take,3.25,True
+margin_double_weighted,6,O06,Tilapia cold-chain distribution,3.25,False
+margin_double_weighted,7,O07,Maize aggregation & storage for feed,3.25,False
+margin_double_weighted,8,O11,Phone & laptop repair and refurbishment,3.25,False
+margin_double_weighted,9,O08,Tomato aggregation with solar cold storage,2.917,False
+margin_double_weighted,10,O09,Branded gari processing & packaging,2.667,False
+margin_double_weighted,11,O10,LPG cylinder-exchange point (CRM),2.583,False
+margin_double_weighted,12,O12,Frozen fish & chicken cold-store retail,2.5,False
+margin_double_weighted,13,O13,Plastic waste aggregation for recyclers,2.25,False
+margin_double_weighted,14,O14,Standalone mobile money agency,2.167,False
+margin_double_weighted,15,O15,Sachet water production,1.75,False

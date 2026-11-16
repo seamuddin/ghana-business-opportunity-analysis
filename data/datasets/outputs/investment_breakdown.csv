@@ -1,0 +1,46 @@
+business_id,category,amount_usd,share_pct
+SOL,Registration & legal,508.97,0.0299
+SOL,Equipment & infrastructure,4230.77,0.2487
+SOL,Initial inventory,1025.64,0.0603
+SOL,Rent & utilities,3162.39,0.1859
+SOL,Transportation & logistics,2948.72,0.1733
+SOL,Marketing & customer acquisition,1025.64,0.0603
+SOL,Staffing (pre-opening),427.35,0.0251
+SOL,Working capital,2136.75,0.1256
+SOL,Contingency reserve,1546.62,0.0909
+LAU,Registration & legal,252.99,0.0162
+LAU,Equipment & infrastructure,6500.85,0.4152
+LAU,Initial inventory,341.88,0.0218
+LAU,Rent & utilities,2649.57,0.1692
+LAU,Transportation & logistics,1837.61,0.1174
+LAU,Marketing & customer acquisition,683.76,0.0437
+LAU,Staffing (pre-opening),256.41,0.0164
+LAU,Working capital,1709.4,0.1092
+LAU,Contingency reserve,1423.25,0.0909
+BRO,Registration & legal,306.41,0.0172
+BRO,Equipment & infrastructure,7521.37,0.4231
+BRO,Initial inventory,5811.97,0.3269
+BRO,Rent & utilities,512.82,0.0288
+BRO,Transportation & logistics,170.94,0.0096
+BRO,Marketing & customer acquisition,341.88,0.0192
+BRO,Staffing (pre-opening),213.68,0.012
+BRO,Working capital,1282.05,0.0721
+BRO,Contingency reserve,1616.11,0.0909
+DEL,Registration & legal,593.16,0.036
+DEL,Equipment & infrastructure,1538.46,0.0933
+DEL,Initial inventory,0.0,0.0
+DEL,Rent & utilities,1230.77,0.0747
+DEL,Transportation & logistics,8461.54,0.5133
+DEL,Marketing & customer acquisition,683.76,0.0415
+DEL,Staffing (pre-opening),341.88,0.0207
+DEL,Working capital,2136.75,0.1296
+DEL,Contingency reserve,1498.63,0.0909
+DIG,Registration & legal,167.52,0.0197
+DIG,Equipment & infrastructure,3504.27,0.412
+DIG,Initial inventory,0.0,0.0
+DIG,Rent & utilities,128.21,0.0151
+DIG,Transportation & logistics,0.0,0.0
+DIG,Marketing & customer acquisition,683.76,0.0804
+DIG,Staffing (pre-opening),256.41,0.0301
+DIG,Working capital,2991.45,0.3517
+DIG,Contingency reserve,773.16,0.0909

@@ -1,0 +1,13 @@
+parameter,value,unit,basis,source_ref,note
+fx_ghs_per_usd,11.70,GHS per USD,Verified fact,MAC-07,"Bank of Ghana interbank rate on 13 Nov 2026 (buy 11.7041 / sell 11.7159), rounded; held constant for 12 months"
+budget_min_usd,5000,USD,Project brief,-,Lower bound of the investment range
+budget_max_usd,20000,USD,Project brief,-,Upper bound of the investment range
+ssnit_employer_rate,0.13,share of basic salary,Verified fact,REG-20,Employer SSNIT contribution added to every salary line
+cit_effective_rate,0.275,share of profit,Verified fact,REG-13,"Corporate income tax 25% + Growth & Sustainability Levy 2.5% of profit before tax (2023-2028)"
+mts_rate,0.03,share of turnover,Verified fact,REG-16,"Modified Taxation Scheme for individuals with turnover above GHS 20,000 and up to GHS 750,000"
+mts_ceiling_ghs,750000,GHS per year,Verified fact,REG-16,Income Tax (Amendment) Act 2026 (Act 1178)
+vat_registration_threshold_ghs,750000,GHS per year,Verified fact,REG-14,"VAT Act 2025 (Act 1151); extended to services by Act 1177 (effective date not confirmed)"
+vat_effective_rate,0.20,share of price,Verified fact,REG-14,"VAT 15% + NHIL 2.5% + GETFund 2.5%; VAT-registered businesses are modelled on prices excluding VAT"
+working_days_per_month,26,days,Assumption,-,Six-day trading week
+prepaid_rent_months,12,months,Assumption,SVC-07,"Rent Act caps advances at 6 months, but 1-2 year demands remain common; 12 months used as a realistic base"
+contingency_rate,0.10,share of other startup costs,Assumption,-,Contingency reserve applied to every startup budget

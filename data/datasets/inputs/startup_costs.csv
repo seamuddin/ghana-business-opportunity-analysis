@@ -1,0 +1,82 @@
+business_id,category,item,amount,currency,useful_life_months,basis,source_ref,note
+SOL,Registration & legal,Company registration (private company limited by shares),585,GHS,,Verified fact,REG-09,ORC 2026 fee schedule
+SOL,Registration & legal,Stated-capital duty (1% of GHS 50000 stated capital),500,GHS,,Verified fact,REG-09,Rate verified; stated capital is an assumption
+SOL,Registration & legal,Energy Commission electrical wiring certification (commercial),870,GHS,,Verified fact,REG-23,Exam fee for the lead technician
+SOL,Registration & legal,Assembly business operating permit,1000,GHS,,Assumption,REG-26,Fee not published online
+SOL,Registration & legal,Legal and accounting set-up (VAT and SSNIT registration; contracts),3000,GHS,,Assumption,-,
+SOL,Equipment & infrastructure,Installation tools and test instruments,15000,GHS,36,Estimate,-,"Insulation tester, clamp meters, crimpers, drills, ladders"
+SOL,Equipment & infrastructure,PPE and fall-protection kit,3000,GHS,24,Estimate,-,
+SOL,Equipment & infrastructure,3 kVA demonstration system installed at the showroom (at cost),18500,GHS,60,Estimate,ENE-17;ENE-18,Doubles as office backup power
+SOL,Equipment & infrastructure,Office furniture; laptop; PV design software,9000,GHS,36,Estimate,-,
+SOL,Equipment & infrastructure,Showroom fit-out and signage,4000,GHS,36,Assumption,-,
+SOL,Initial inventory,Balance-of-system stock (cables; breakers; rails; connectors),12000,GHS,,Estimate,-,Main equipment is bought per order after the customer deposit
+SOL,Rent & utilities,Showroom/office rent: 12 months prepaid at GHS 3000,36000,GHS,12,Estimate,SVC-02;SVC-03;SVC-07,Amortised over 12 months; Accra shop listings GHS 3000-3500
+SOL,Rent & utilities,Utility connection deposits,1000,GHS,,Assumption,-,
+SOL,Transportation & logistics,Motor tricycle (aboboyaa) for equipment delivery,32000,GHS,48,Verified fact,ENE-36,New tricycle range GHS 25000-37000
+SOL,Transportation & logistics,Tricycle registration and first-year insurance,2500,GHS,12,Assumption,-,
+SOL,Marketing & customer acquisition,Brand identity; website; launch campaign; brochures,12000,GHS,,Assumption,-,
+SOL,Staffing (pre-opening),Recruitment and manufacturer product training,5000,GHS,,Assumption,-,
+SOL,Working capital,Operating cash reserve for ramp-up months,25000,GHS,,Assumption,-,About one month of fixed costs plus supplier deposits
+LAU,Registration & legal,Business name registration and name search,160,GHS,,Verified fact,REG-09,GHS 130 + GHS 30
+LAU,Registration & legal,Assembly business operating permit,800,GHS,,Assumption,REG-26,Fee not published online
+LAU,Registration & legal,EPA environmental registration (wastewater),1000,GHS,,Assumption,REG-25,Fee amounts not published online
+LAU,Registration & legal,Set-up advisory (bookkeeping; SSNIT registration),1000,GHS,,Assumption,-,
+LAU,Equipment & infrastructure,2 x 20 kg front-load washers (GHS 5999 each),12000,GHS,48,Listing,SVC-36,
+LAU,Equipment & infrastructure,1 x 20 kg / 12 kg washer-dryer,20000,GHS,48,Listing,SVC-16,Drying capacity; supplemented by line drying
+LAU,Equipment & infrastructure,Industrial steam iron with boiler,8000,GHS,48,Listing,SVC-36,
+LAU,Equipment & infrastructure,Pressing tables and domestic irons,2500,GHS,36,Estimate,-,
+LAU,Equipment & infrastructure,5.5 kVA backup generator,11560,GHS,60,Listing,SVC-27,
+LAU,Equipment & infrastructure,Water storage (2000 L tank) and pump,5000,GHS,60,Assumption,-,
+LAU,Equipment & infrastructure,Racks; hangers; scale; garment tagging system,4000,GHS,36,Assumption,-,
+LAU,Equipment & infrastructure,POS phone; laptop; booking software set-up,3000,GHS,36,Assumption,-,
+LAU,Equipment & infrastructure,Shop fit-out (plumbing; electrical; counter),10000,GHS,36,Assumption,-,
+LAU,Initial inventory,Detergents; softeners; garment bags; hangers (about 2 months),4000,GHS,,Assumption,-,
+LAU,Rent & utilities,Shop rent: 12 months prepaid at GHS 2500,30000,GHS,12,Estimate,SVC-02;SVC-06;SVC-07,Amortised over 12 months; mid-range of Accra/Kumasi listings
+LAU,Rent & utilities,Utility connection deposits,1000,GHS,,Assumption,-,
+LAU,Transportation & logistics,Pickup and delivery motorbike (125-150 cc),20000,GHS,36,Verified fact,ENE-35,New bike range GHS 17000-27000
+LAU,Transportation & logistics,Motorbike registration and first-year insurance,1500,GHS,12,Assumption,-,
+LAU,Marketing & customer acquisition,Signage; flyers; launch promotions; social media ads,8000,GHS,,Assumption,-,
+LAU,Staffing (pre-opening),Recruitment and garment-care training,3000,GHS,,Assumption,-,
+LAU,Working capital,Operating cash reserve for ramp-up months,20000,GHS,,Assumption,-,
+BRO,Registration & legal,Company registration (private company limited by shares),585,GHS,,Verified fact,REG-09,
+BRO,Registration & legal,Stated-capital duty (1% of GHS 50000 stated capital),500,GHS,,Verified fact,REG-09,Rate verified; stated capital is an assumption
+BRO,Registration & legal,District assembly permit and veterinary registration,1500,GHS,,Assumption,-,Fees not published online
+BRO,Registration & legal,EPA screening/registration for a poultry farm,1000,GHS,,Assumption,REG-25,
+BRO,Equipment & infrastructure,Two open-sided broiler houses (about 220 m2; block; timber; mesh; roofing),40000,GHS,120,Assumption,-,No authoritative cost per m2 found; published guides are inconsistent (see financial-assumptions.md)
+BRO,Equipment & infrastructure,Feeders; drinkers; chick trays for 2200 birds,9000,GHS,48,Estimate,AGR-32;AGR-39,MoFA budget GHS 6090 per 1000 birds at older prices
+BRO,Equipment & infrastructure,4 gas brooders and brooder guards,7000,GHS,48,Listing,AGR-39,
+BRO,Equipment & infrastructure,Water tank; pump; connection,8000,GHS,60,Assumption,-,
+BRO,Equipment & infrastructure,Small generator / solar lighting,6000,GHS,60,Assumption,-,
+BRO,Equipment & infrastructure,Dressing kit (scalder; plucker; knives) and 2 chest freezers,16000,GHS,48,Listing,SVC-26,Freezers GHS 4899-5999 each
+BRO,Equipment & infrastructure,Biosecurity kit (foot dips; sprayers; PPE),2000,GHS,24,Estimate,-,
+BRO,Initial inventory,First batch in progress: 1100 chicks + feed + vaccines,68000,GHS,,Estimate,AGR-09;AGR-10;AGR-11;AGR-33,"1100 x GHS 20.5 chicks + 1000 x 4.8 kg x GHS 9 feed + vaccines; consistent with GHS 66-71k per 1000-bird batch"
+BRO,Rent & utilities,Land lease (about 1 acre; peri-urban): 12 months prepaid,6000,GHS,12,Assumption,-,
+BRO,Transportation & logistics,Crates and cool boxes for deliveries,2000,GHS,36,Assumption,-,Vehicle transport is hired per trip (in unit cost)
+BRO,Marketing & customer acquisition,Off-take development (sampling; buyer visits; labels),4000,GHS,,Assumption,-,
+BRO,Staffing (pre-opening),Farm-hand recruitment and husbandry training,2500,GHS,,Assumption,-,
+BRO,Working capital,Operating cash reserve (feed price spikes; batch overlap),15000,GHS,,Assumption,-,
+DEL,Registration & legal,Business name registration and name search,160,GHS,,Verified fact,REG-09,
+DEL,Registration & legal,Courier rider registration (4 riders x GHS 570),2280,GHS,,Verified fact,ENE-34,Postal and courier regulator one-off fee
+DEL,Registration & legal,DVLA commercial registration and rider licence tests (4 bikes),3200,GHS,,Assumption,ENE-32,Under Road Traffic Regulations 2026 (L.I. 2519); fee not verified
+DEL,Registration & legal,Assembly business operating permit and union/company membership,1300,GHS,,Assumption,REG-26;ENE-33,
+DEL,Equipment & infrastructure,Delivery boxes (4),4000,GHS,24,Assumption,-,
+DEL,Equipment & infrastructure,Helmets; reflective gear; rain kits (4 riders),4000,GHS,24,Assumption,-,
+DEL,Equipment & infrastructure,Rider smartphones (4) and dispatcher phone/laptop,10000,GHS,24,Assumption,-,
+DEL,Rent & utilities,Dispatch base / parking: 12 months prepaid at GHS 1200,14400,GHS,12,Assumption,SVC-07,
+DEL,Transportation & logistics,4 delivery motorbikes (150 cc) at GHS 22000,88000,GHS,36,Verified fact,ENE-35,New bike range GHS 17000-27000
+DEL,Transportation & logistics,Motorbike insurance (first year; 4 bikes),8000,GHS,12,Assumption,-,
+DEL,Transportation & logistics,GPS trackers (4),3000,GHS,36,Assumption,-,
+DEL,Marketing & customer acquisition,Seller acquisition campaign; bike branding; launch discounts,8000,GHS,,Assumption,-,
+DEL,Staffing (pre-opening),Rider recruitment and defensive-riding training,4000,GHS,,Assumption,-,
+DEL,Working capital,Operating cash reserve including same-day COD settlement float,25000,GHS,,Assumption,ENE-53,Sellers are paid COD cash within 24 hours
+DIG,Registration & legal,Business name registration and name search,160,GHS,,Verified fact,REG-09,
+DIG,Registration & legal,Assembly business operating permit,800,GHS,,Assumption,REG-26,
+DIG,Registration & legal,Set-up advisory (contracts; data-protection registration),1000,GHS,,Assumption,-,
+DIG,Equipment & infrastructure,3 laptops (design-capable),24000,GHS,36,Estimate,-,
+DIG,Equipment & infrastructure,Camera; lighting kit; smartphone for content,9000,GHS,36,Estimate,-,
+DIG,Equipment & infrastructure,Software licences (design; scheduling; hosting) - 12 months prepaid,6000,GHS,12,Estimate,-,
+DIG,Equipment & infrastructure,Furniture,2000,GHS,36,Assumption,-,
+DIG,Rent & utilities,Co-working desk deposit,1500,GHS,,Assumption,-,Monthly co-working fee is an operating cost
+DIG,Marketing & customer acquisition,Portfolio building; subsidised pilot clients; launch campaign,8000,GHS,,Assumption,-,
+DIG,Staffing (pre-opening),Recruitment and platform certification training,3000,GHS,,Assumption,-,
+DIG,Working capital,Operating cash reserve for client-acquisition ramp,35000,GHS,,Assumption,-,"Retainer revenue builds slowly; sized so the base-case cash balance stays positive"

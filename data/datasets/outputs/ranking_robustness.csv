@@ -1,0 +1,16 @@
+weight_set,business,weighted_score,rank
+recommended,Solar installation,3.52,1
+recommended,Digital services,3.058,2
+recommended,Laundry service,3.047,3
+recommended,Delivery fleet,2.931,4
+recommended,Broiler farm,2.527,5
+equal,Solar installation,3.393,1
+equal,Digital services,3.094,2
+equal,Laundry service,3.087,3
+equal,Delivery fleet,2.939,4
+equal,Broiler farm,2.429,5
+risk_averse,Solar installation,3.302,1
+risk_averse,Digital services,3.22,2
+risk_averse,Laundry service,3.159,3
+risk_averse,Delivery fleet,2.846,4
+risk_averse,Broiler farm,2.493,5
